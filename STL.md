@@ -1086,3 +1086,23 @@ int lcm(int a, int b)
 ```
 
 
+# 个人相关总结记录
+
+## 字符串相关
+
+```cpp
+islower(word[i]) //可以判断大小写，这个是小写，返回bool
+isupper(word[i]) //这个是大写，返回bool
+```
+
+## 其他
+
+当你要判断两个bool是否相同，比如前面是真，后面是真，两个同时是真或者假的时候
+可以使用异或符
+```cpp
+if(islower(word[i]) ^ islower(word[1])){
+                return false;
+            }
+//相同返回0，即false
+//不同返回1，即true
+```

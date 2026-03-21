@@ -485,6 +485,13 @@ for (auto &[key, val] : mp)
     cout << key << ' ' << val << endl;
 ```
 
+如果是键是int，值是数组，遍历的时候就要这样写：
+
+```cpp
+for(auto [_,vec] : mp)
+	cout << key << ' ' << vec[0] << endl;
+```
+
 #### 其他
 
 | 作用                   | 用法           | 示例                    |

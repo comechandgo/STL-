@@ -1093,6 +1093,7 @@ int lcm(int a, int b)
 ```cpp
 islower(word[i]) //可以判断大小写，这个是小写，返回bool
 isupper(word[i]) //这个是大写，返回bool
+tolower(word[i]) //转换成小写
 ```
 
 ## 其他
@@ -1106,3 +1107,16 @@ if(islower(word[i]) ^ islower(word[1])){
 //相同返回0，即false
 //不同返回1，即true
 ```
+
+判断是否是字符
+```cpp
+isalpha(char);
+//范围是字母
+
+isalnum(char)
+//范围是azAZ09
+```
+
+
+
+

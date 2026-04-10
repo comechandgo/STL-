@@ -1118,7 +1118,7 @@ isalnum(char)
 ```
 ## 解除输入输出流绑定
 ```cpp
-ios::sync_withh_stdio(false);
+ios::sync_with_stdio(false);
 cin.tie(0);
 ```
 ## 闰年写法
